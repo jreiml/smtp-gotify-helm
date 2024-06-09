@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: quay.io/reiml/smtp-gotify
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 2525
+
+gotify:
+  url: "<SERVER_URL>"
+  token: "<APP_TOKEN1>,<APP_TOKEN2>"
+
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
