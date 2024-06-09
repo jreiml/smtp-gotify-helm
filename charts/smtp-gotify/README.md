@@ -1,11 +1,16 @@
 # smtp-gotify
 
+[![MIT Licensed](https://img.shields.io/github/license/jreiml/smtp-gotify-helm)](https://github.com/jreiml/smtp-gotify-helm/blob/main/LICENSE)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/smtp-gotify)](https://artifacthub.io/packages/search?repo=smtp-gotify)
+[![Quay.io](https://img.shields.io/badge/Docker-Quay.io-blue)](https://quay.io/repository/reiml/smtp-gotify)
+
 ## Overview
 
 This is a Helm chart for deploying the `smtp-gotify` application, which listens for SMTP messages and forwards them to a Gotify server.
 
 ## Prerequisites
 
+- [Gotify](https://github.com/gotify/server) (tested for 2.4.0+)
 - Kubernetes (tested for 1.30+)
 - Helm (tested for 3.15+)
 
