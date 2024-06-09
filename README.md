@@ -14,7 +14,7 @@ the notification mail can be sent to a Gotify app.
 
 This [Helm](https://helm.sh/docs/) chart is used to deploy `smtp-gotify` with a stable configuration to Kubernetes clusters.
 
-The upstream repository for the `smtp-gotify` project can be found [here](https://github.com/gotify/server).
+The upstream repository for the `smtp-gotify` project can be found [here](https://github.com/jreiml/smtp-gotify).
 
 ## Prerequisites
 
