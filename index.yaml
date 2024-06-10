@@ -3,6 +3,16 @@ entries:
   smtp-gotify:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-06-10T06:56:01.286750752Z"
+    description: A Helm chart for deploying smtp-gotify
+    digest: 5a947963b2b79ea932deac998e01a212f7c261475a97ba31c5737b4c7bdb3170
+    icon: https://raw.githubusercontent.com/gotify/logo/master/gotify-logo.svg
+    name: smtp-gotify
+    urls:
+    - https://github.com/jreiml/smtp-gotify-helm/releases/download/v0.1.2/smtp-gotify-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-06-09T22:09:50.098566908Z"
     description: A Helm chart for deploying smtp-gotify
     digest: 16066d282e9edfde88a086068cb0e1ad944c7c1d5f17253a8c4a6fdc8d81891e
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/jreiml/smtp-gotify-helm/releases/download/v0.1.0/smtp-gotify-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-09T22:09:50.098578951Z"
+generated: "2024-06-10T06:56:01.286761673Z"
