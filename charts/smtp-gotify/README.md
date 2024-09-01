@@ -62,12 +62,12 @@ The following table lists the configurable parameters of the `smtp-gotify` chart
 | `affinity`         | Affinity settings for pod assignment   | `{}`                          |
 
 
-**Important**: The variable `gotify.url` should be in the form `http[s]://example.com[:port]/` (including trailing slash).
+**Important**: The variable `gotify.url` should be in the form `http[s]://example.com[:port]`.
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example:
 
 ```bash
-helm install smtp-gotify smtp-gotify/smtp-gotify --set gotify.url=https://your-gotify-server.com/ --set gotify.token=your-gotify-token
+helm install smtp-gotify smtp-gotify/smtp-gotify --set gotify.url=https://your-gotify-server.com --set gotify.token=your-gotify-token
 ````
 
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. 
