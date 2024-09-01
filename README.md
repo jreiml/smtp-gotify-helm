@@ -33,7 +33,7 @@ helm repo add smtp-gotify https://jreiml.github.io/smtp-gotify-helm
 To deploy the chart with the release name `smtp-gotify` run:
 
 ```bash
-# The variable `URL` should be in the form `http[s]://example.com[:port]/`.
+# The variable `URL` should be in the form `http[s]://example.com[:port]`.
 export URL=https://gotify.example.com/
 export TOKEN=...
 helm install smtp-gotify smtp-gotify/smtp-gotify \
